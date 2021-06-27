@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Domestika</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow:600"
+      rel="stylesheet"
+    />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/3.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1>Introdução ao JavaScript</h1>
 
-    <script src="script.js"></script>
+  <body>
+    <div id="welcome" class="message"></div>
+    <form id="form">
+      <label> Seu nome: <input type="text" id="name"/> </label>
+      <label>
+        Ano em que nasceu: <input type="text" id="year" maxlength="4" />
+      </label>
+      <button type="submit">Enviar</button>
+      <button type="submit" id="clear-button"></button>
+    </form>
+
+    <script src="js/javascript.js"></script>
   </body>
 </html>
